@@ -1,0 +1,19 @@
+---
+# defaults file for gofabric8
+gofabric8_ver: v0.4.176
+
+gofabric8_platform: linux-amd64
+
+gofabric8_mirror: https://github.com/fabric8io/gofabric8/releases/download
+gofabric8_checksums:
+  v0.4.176:
+    # curl -SsL https://github.com/fabric8io/gofabric8/releases/download/v0.4.176/gofabric8-darwin-amd64.sha256
+    darwin-amd64: sha256:62093540c8a013f2b7ea02deedb5f36d46220bfc6f3e2e9792eba7599204e353
+    # curl -SsL https://github.com/fabric8io/gofabric8/releases/download/v0.4.176/gofabric8-linux-amd64.sha256
+    linux-amd64: sha256:dcca18f092d464972deab1393b719d079e2ae859e80dfca8f56567187beff7d0
+    # curl -SsL https://github.com/fabric8io/gofabric8/releases/download/v0.4.176/gofabric8-linux-arm.sha256
+    linux-arm: sha256:16a3b21a70c46c2f203678dbbf64f6df7d3140a14a4e1ce3a5d812c3154251f4
+    # curl -SsL https://github.com/fabric8io/gofabric8/releases/download/v0.4.176/gofabric8-windows-amd64.exe.sha256
+    windows-amd64: sha256:627cc580c7cd51c457dd53b6b90f57756c6bb30a8bb9d76def7e849e16ef4873
+
+gofabric8_install_dir: /usr/local/bin

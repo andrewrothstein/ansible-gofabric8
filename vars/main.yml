@@ -1,0 +1,7 @@
+---
+# vars file for gofabric8
+gofabric8_eff_exe_suffix: '{{gofabric8_exe_suffix|default("")}}'
+gofabric8_url: '{{gofabric8_mirror}}/{{gofabric8_ver}}/gofabric8-{{gofabric8_platform}}{{gofabric8_eff_exe_suffix}}'
+gofabric8_install_exe: '{{gofabric8_install_dir}}/gofabric8-{{gofabric8_platform}}-{{gofabric8_ver}}{{gofabric8_eff_exe_suffix}}'
+gofabric8_install_link: '{{gofabric8_install_dir}}/gofabric8{{gofabric8_eff_exe_suffix}}'
+gofabric8_checksum: '{{gofabric8_checksums[gofabric8_ver][gofabric8_platform]}}'
